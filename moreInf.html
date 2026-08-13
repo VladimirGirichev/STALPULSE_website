@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>STALPULSE — Лор</title>
+
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+ margin:0;background:#080808;color:#ddd;
+ font-family:Calibri,Arial,sans-serif;line-height:1.6
+}
+header{
+ padding:15px 8%;display:flex;justify-content:space-between;
+ align-items:center;background:#000;border-bottom:2px solid #fa0;
+ position:sticky;top:0;z-index:5
+}
+.logo{font-size:2rem;font-weight:bold;color:#fff}
+.sub{color:#fa0;font-size:.85rem;font-weight:bold}
+.btn{
+ padding:9px 20px;background:#fa0;color:#000;
+ text-decoration:none;font-weight:bold;border-radius:4px
+}
+.hero{
+ padding:90px 8%;background:
+ linear-gradient(#000b,#000e),url("../STALPULSE_IMAGES/foneImage.jpg") center/cover;
+ border-bottom:1px solid #222
+}
+.hero h1{
+ margin:0;color:#fa0;font-size:clamp(3rem,7vw,6rem);
+ text-transform:uppercase
+}
+.hero p{max-width:700px;font-size:1.2rem;color:#ccc}
+nav{
+ padding:20px 8%;display:flex;flex-wrap:wrap;gap:8px;
+ background:#111;border-bottom:1px solid #222
+}
+nav a{
+ padding:6px 12px;color:#aaa;text-decoration:none;
+ border:1px solid #333;border-radius:3px
+}
+nav a:hover{color:#fa0;border-color:#fa0}
+main{max-width:1000px;margin:auto;padding:60px 25px}
+section{margin-bottom:65px}
+h2{
+ color:#fa0;font-size:2.3rem;text-transform:uppercase;
+ border-left:5px solid #fa0;padding-left:15px
+}
+p{font-size:1.1rem}
+strong{color:#fff}
+ul{
+ padding:0;list-style:none
+}
+li{
+ margin:10px 0;padding:10px 15px;
+ background:#111;border-left:2px solid #fa0
+}
+.cards{
+ display:grid;grid-template-columns:repeat(2,1fr);gap:15px
+}
+.card{
+ padding:20px;background:#111;border-left:3px solid #fa0
+}
+.card h3{margin:0;color:#fa0}
+.card p{font-size:1rem}
+.quote{
+ margin:30px 0;padding:25px;text-align:center;
+ background:#111;border-top:1px solid #fa0;
+ border-bottom:1px solid #fa0
+}
+.quote strong{color:#fa0;font-size:1.3rem}
+.final{
+ padding:50px 20px;text-align:center;
+ background:linear-gradient(#000c,#000c),
+ url("../STALPULSE_IMAGES/foneImage.jpg") center/cover;
+ border:1px solid #333
+}
+.final h2{border:0;padding:0}
+footer{
+ padding:25px;text-align:center;background:#000;color:#777
+}
+footer b{color:#fa0}
+
+@media(max-width:700px){
+ header{padding:15px 20px;flex-direction:column;gap:12px}
+ .hero{padding:60px 20px}
+ nav{padding:15px 20px}
+ main{padding:40px 20px}
+ .cards{grid-template-columns:1fr}
+ h2{font-size:1.8rem}
+ p{font-size:1rem}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+ <div>
+  <div class="logo">STALPULSE</div>
+  <div class="sub">ЛОР ИГРОВОЙ ВСЕЛЕННОЙ</div>
+ </div>
+ <a class="btn" href="index.html">← На главную</a>
+</header>
+
+<div class="hero">
+ <h1>Лор</h1>
+ <p>
+  Мир, который не начинается заново.
+  Мир, который помнит.
+  Мир, историю которого создают игроки.
+ </p>
+</div>
+
+<nav>
+ <a href="#about">STALPULSE</a>
+ <a href="#laser">Лазертаг</a>
+ <a href="#mmo">MMO</a>
+ <a href="#players">Игроки</a>
+ <a href="#factions">Фракции</a>
+ <a href="#quests">Задания</a>
+ <a href="#events">События</a>
+</nav>
+
+<main>
+
+<section id="about">
+<h2>Что такое STALPULSE</h2>
+<p>
+<strong>STALPULSE</strong> — это наша собственная игровая вселенная,
+построенная вокруг сочетания <strong>лазертага, элементов MMO
+и живого сюжета.</strong>
+</p>
+<p>
+Это не просто серия отдельных игр на одном полигоне.
+STALPULSE — это мир, который развивается от игры к игре,
+а его историю создают сами игроки.
+</p>
+<p>
+Мы создаём мир, фракции, правила, задания, персонажей,
+события и конфликты. А игроки решают, что произойдёт
+с этой основой.
+</p>
+</section>
+
+<section id="laser">
+<h2>Лазертаг</h2>
+<p>
+В основе STALPULSE лежит физическая игра в лазертаг.
+Игроки находятся непосредственно внутри игрового мира:
+исследуют территории, вступают в боевые столкновения,
+ищут тайники и выполняют задания.
+</p>
+<p>
+Но победа в перестрелке — далеко не единственный способ
+добиться результата. Иногда важнее информация, доставка
+предмета, поиск человека или даже отсутствие боя.
+</p>
+</section>
+
+<section id="mmo">
+<h2>MMO-элементы</h2>
+<p>
+STALPULSE использует элементы MMO, чтобы сделать игровой
+мир постоянным. У игрока есть собственный путь:
+задания, ресурсы, репутация и взаимодействие с фракциями.
+</p>
+<p>
+Территории могут переходить под контроль разных сторон,
+а события одной игры способны создавать последствия
+для следующих.
+</p>
+
+<div class="quote">
+<strong>Прогресс игрока не сбрасывается.<br>
+Мир продолжает жить.</strong>
+</div>
+
+<p>
+Полученные ресурсы, репутация, достижения и последствия
+решений остаются частью истории игрока.
+Состояние самого мира также сохраняется.
+</p>
+</section>
+
+<section id="players">
+<h2>Игроки пишут историю</h2>
+<p>
+Игрок не просто проходит заранее написанный сюжет —
+<strong>он становится его участником.</strong>
+</p>
+<p>
+Организаторы создают ситуацию и направление событий,
+но дальнейшее развитие зависит от игроков.
+</p>
+
+<ul>
+<li>Можно сорвать задание.</li>
+<li>Можно помочь другой фракции.</li>
+<li>Можно найти важный объект раньше остальных.</li>
+<li>Можно принять решение с последствиями через несколько игр.</li>
+</ul>
+
+<p>
+Поэтому невозможно заранее полностью предсказать,
+какой станет история.
+</p>
+</section>
+
+<section id="factions">
+<h2>Фракции</h2>
+<p>
+У каждой фракции есть собственные интересы, цели
+и отношение к происходящему.
+</p>
+
+<p>
+Фракции — это не просто команды разных цветов.
+Между ними возникают союзы, конфликты, торговля,
+конкуренция и войны.
+</p>
+
+<div class="cards">
+ <div class="card">
+  <h3>Союзы</h3>
+  <p>Фракции могут объединяться ради общей цели.</p>
+ </div>
+
+ <div class="card">
+  <h3>Конфликты</h3>
+  <p>Разногласия могут перерасти в противостояние.</p>
+ </div>
+
+ <div class="card">
+  <h3>Торговля</h3>
+  <p>Ресурсы и информация имеют ценность.</p>
+ </div>
+
+ <div class="card">
+  <h3>Войны</h3>
+  <p>Действия игроков меняют баланс сил.</p>
+ </div>
+</div>
+</section>
+
+<section id="quests">
+<h2>Задания</h2>
+<p>
+<strong>Задания</strong> — один из главных способов
+взаимодействия игрока с миром.
+</p>
+
+<ul>
+<li>Найти объект.</li>
+<li>Доставить предмет.</li>
+<li>Разведать территорию.</li>
+<li>Найти информацию.</li>
+<li>Защитить объект.</li>
+<li>Устранить угрозу.</li>
+<li>Сопроводить игрока.</li>
+<li>Исследовать неизвестное место.</li>
+<li>Найти тайник.</li>
+<li>Участвовать в крупном событии.</li>
+</ul>
+
+<p>
+Выполнение задания не всегда означает путь от точки А
+до точки Б. Игрокам приходится самостоятельно принимать решения.
+</p>
+</section>
+
+<section>
+<h2>Последствия</h2>
+<p>
+В STALPULSE действия игроков имеют значение.
+Успешное выполнение задания может изменить дальнейшие события.
+Провал не обязан возвращать мир в исходное состояние.
+</p>
+
+<ul>
+<li>Фракция может получить или потерять важный объект.</li>
+<li>Новый маршрут может стать частью следующих игр.</li>
+<li>Конфликт может продолжаться после окончания игры.</li>
+</ul>
+
+<div class="quote">
+<strong>Мир помнит действия игроков.</strong>
+</div>
+</section>
+
+<section>
+<h2>Живой сюжет</h2>
+<p>
+Мы создаём сюжетные линии, персонажей и ключевые события,
+но игроки могут изменить их развитие.
+</p>
+
+<div class="quote">
+<strong>
+История состоит из двух частей:<br>
+того, что мы подготовили,<br>
+и того, что сделали игроки.
+</strong>
+</div>
+
+<p>
+Именно взаимодействие игроков создаёт уникальные события.
+Один сезон может закончиться совершенно иначе,
+чем мы предполагали в начале.
+</p>
+</section>
+
+<section id="events">
+<h2>Игровые события</h2>
+<p>
+Помимо обычных игр и заданий, происходят крупные события:
+</p>
+
+<ul>
+<li>Масштабные сражения.</li>
+<li>Операции фракций.</li>
+<li>Поисковые экспедиции.</li>
+<li>Научные исследования.</li>
+<li>Аномальные события.</li>
+<li>Появление новых объектов.</li>
+<li>Изменения территорий.</li>
+<li>Сюжетные кризисы.</li>
+</ul>
+</section>
+
+<section>
+<h2>Постоянно развивающийся мир</h2>
+<p>
+STALPULSE не заканчивается после одной игры.
+Каждая игра оставляет после себя изменения.
+</p>
+<p>
+Игроки получают новый опыт, фракции меняют положение,
+появляются новые задания и сюжетные линии.
+</p>
+
+<div class="quote">
+<strong>Каждая следующая игра начинается не с нуля.</strong>
+</div>
+
+<p>
+Достижения, репутация, ресурсы и последствия действий
+продолжают существовать. То же касается территорий,
+отношений между фракциями и крупных событий.
+</p>
+</section>
+
+<section>
+<h2>Роль игрока</h2>
+<p>
+В STALPULSE игрок может быть кем угодно.
+</p>
+
+<div class="cards">
+ <div class="card"><h3>Боец</h3><p>Сражается за интересы фракции.</p></div>
+ <div class="card"><h3>Разведчик</h3><p>Исследует территории и добывает информацию.</p></div>
+ <div class="card"><h3>Исследователь</h3><p>Изучает неизвестные объекты и события.</p></div>
+ <div class="card"><h3>Охотник</h3><p>Ищет артефакты и ценные ресурсы.</p></div>
+ <div class="card"><h3>Курьер</h3><p>Доставляет предметы и информацию.</p></div>
+ <div class="card"><h3>Наёмник</h3><p>Работает на тех, кто предложит награду.</p></div>
+</div>
+
+<p>
+Или просто сталкером, который пытается выжить и заработать.
+Не существует единственного правильного способа играть.
+</p>
+</section>
+
+<section>
+<h2>Главное отличие</h2>
+
+<p>
+Обычный лазертаг заканчивается вместе с окончанием игры.
+</p>
+
+<div class="quote">
+<strong>STALPULSE — нет.</strong>
+</div>
+
+<ul>
+<li>Остаётся история.</li>
+<li>Остаются решения игроков.</li>
+<li>Остаются последствия.</li>
+<li>Остаются отношения между фракциями.</li>
+<li>Остаются изменения мира.</li>
+<li>Остаётся прогресс игроков.</li>
+</ul>
+</section>
+
+<div class="final">
+<h2>STALPULSE</h2>
+<p><strong>
+Это лазертаг, который превращается
+в живую MMO-вселенную в реальной жизни.
+</strong></p>
+<p>Мы создаём мир.</p>
+<p>Мы задаём правила.</p>
+<p>Мы создаём возможности.</p>
+<p><strong>А историю пишут игроки.</strong></p>
+</div>
+
+</main>
+
+<footer>
+<b>STALPULSE</b><br>
+Игровая вселенная. Твоя история. Твои решения.
+</footer>
+
+</body>
+</html>

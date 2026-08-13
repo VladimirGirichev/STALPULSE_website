@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>STALPULSE — Игровая вселенная</title>
+
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;background:#000;color:#fff;font-family:Calibri,Arial,sans-serif}
+body{overflow-x:hidden}
+
+.hero{
+ min-height:100vh;
+ background:linear-gradient(#000a,#000c),url("../STALPULSE_IMAGES/foneImage.jpg") center/cover;
+}
+
+header{
+ padding:15px 40px;
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+ background:#000;
+ border-bottom:2px solid #fa0;
+}
+
+.logo{font-size:2rem;font-weight:bold}
+.sub{color:#fa0;font-size:.9rem;font-weight:bold}
+
+.btn{
+ padding:10px 22px;
+ background:#fa0;
+ color:#000;
+ text-decoration:none;
+ font-weight:bold;
+ border-radius:4px;
+}
+
+main{
+ min-height:calc(100vh - 80px);
+ padding:60px 8%;
+ display:flex;
+ align-items:center;
+}
+
+.intro{max-width:800px}
+h1{color:#fa0;font-size:clamp(2rem,5vw,4rem);margin:0 0 25px}
+p{font-size:1.2rem;line-height:1.6}
+strong{color:#fa0}
+
+.features{
+ padding:70px 8%;
+ display:flex;
+ gap:60px;
+ align-items:center;
+ background:#111;
+}
+
+.text,.photo{flex:1}
+h2{color:#fa0;font-size:2.2rem}
+.item{margin:25px 0}
+.title{font-size:1.3rem;font-weight:bold}
+.desc{color:#ccc;line-height:1.5;margin-top:5px}
+
+.photo img{
+ width:100%;
+ display:block;
+ border:2px solid #fa0;
+ border-radius:8px;
+}
+
+.photos{
+ padding:60px 8%;
+ text-align:center;
+ background:#080808;
+}
+
+.grid{
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+    max-width:900px;
+    margin:0 auto;
+}
+
+.grid img{
+    width:100%;
+    display:block;
+    border-radius:8px;
+    border:2px solid #fa0;
+}
+
+footer{
+ padding:25px;
+ text-align:center;
+ color:#777;
+ background:#000;
+}
+
+footer b{color:#fa0}
+
+.contacts{
+    padding:60px 20px;
+    text-align:center;
+    background:#111;
+    border-top:1px solid #222;
+}
+
+.contacts h2{
+    color:#fa0;
+    margin:0 0 20px;
+}
+
+.contacts p{
+    color:#ccc;
+    margin:10px 0;
+}
+
+.contacts a{
+    color:#fa0;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.contacts a:hover{
+    text-decoration:underline;
+}
+
+.contacts span{
+    color:#777;
+}
+
+@media(max-width:768px){
+ header{padding:15px 20px;flex-direction:column;gap:15px;text-align:center}
+ .btn{width:100%;max-width:280px;text-align:center}
+ main{padding:40px 20px}
+ .features{padding:50px 20px;flex-direction:column}
+ .grid{grid-template-columns:1fr}
+ h1{font-size:2rem}
+ h2{font-size:1.7rem}
+ p{font-size:1rem}
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+
+<header>
+ <div>
+  <div class="logo">STALPULSE</div>
+  <div class="sub">Лазертаг в стиле S.T.A.L.K.E.R.</div>
+ </div>
+
+ <a class="btn" href="moreInf.html">Больше информации о проекте</a>
+</header>
+
+<main>
+ <div class="intro">
+
+  <h1>Добро пожаловать в STALPULSE</h1>
+
+  <p>
+   <strong>STALPULSE</strong> — это наша собственная игровая
+   вселенная, построенная вокруг сочетания лазертага,
+   элементов MMO и живого сюжета.
+  </p>
+
+  <p>Это не просто серия отдельных игр на одном полигоне.</p>
+
+  <p>
+   <strong>STALPULSE</strong> — это мир, который развивается
+   от игры к игре, а его историю создают сами игроки.
+  </p>
+
+  <p>
+   Мы создаём основу: мир, фракции, правила, задания,
+   персонажей, события и конфликты. А игроки решают,
+   что произойдёт с этой основой.
+  </p>
+
+ </div>
+</main>
+
+</section>
+
+
+<section class="features">
+
+<div class="text">
+
+ <h2>Особенности нашей игры</h2>
+
+ <div class="item">
+  <div class="title">Полное погружение</div>
+  <div class="desc">Игры проходят на подготовленных полигонах.</div>
+ </div>
+
+ <div class="item">
+  <div class="title">Уникальные сценарии</div>
+  <div class="desc">
+   Вы не просто стреляете, а выполняете квесты,
+   ищете артефакты и спасаетесь от выбросов.
+  </div>
+ </div>
+
+ <div class="item">
+  <div class="title">Честная электроника</div>
+  <div class="desc">
+   Фиксация попаданий происходит моментально
+   при помощи технологичных датчиков.
+  </div>
+ </div>
+
+ <div class="item">
+  <div class="title">Доступно каждому</div>
+  <div class="desc">
+   Проводим игры недорого, делая качественный
+   отдых доступным для любой компании.
+  </div>
+ </div>
+
+</div>
+
+<div class="photo">
+ <img src="../STALPULSE_IMAGES/image1.png" alt="Команда STALPULSE">
+</div>
+
+</section>
+
+
+<section class="photos">
+
+<h2>Несколько фотографий с наших игр</h2>
+
+<div class="grid">
+ <img src="../STALPULSE_IMAGES/image2.jpg">
+ <img src="../STALPULSE_IMAGES/image3.jpg">
+ <img src="../STALPULSE_IMAGES/image4.jpg">
+ <img src="../STALPULSE_IMAGES/image5.jpg">
+</div>
+
+</section>
+
+
+<section class="contacts">
+    <h2>Забронировать игру</h2>
+    <p>Если вы хотите забронировать игру, звоните по номеру:</p>
+    <a href="tel:+79038787313">8 903 878 73 13</a>
+    <p>Telegram: <a href="https://t.me/Stalkertag_player">@Stalkertag_player</a></p>
+    <p>Ссылка на Telegram-канал: <a href="https://t.me/stalpulse">t.me/stalpulse</a></p>
+</section>
+
+<footer>
+    <b>STALPULSE</b><br>
+    Игровая вселенная. Твоя история. Твои решения.
+</footer>
+
+</body>
+</html>
